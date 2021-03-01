@@ -8,6 +8,9 @@ html, body {
 }
 
 header {
+    position: fixed;
+    top: 0; left: 50%;
+    transform: translate(-50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +18,7 @@ header {
     height: 70px;
     margin: auto;
     border-bottom: 1px solid rgb(199, 199, 199);
+    background-color: #fff;
 }
 
 #logo {

@@ -1,0 +1,30 @@
+#form_contact{
+    display:flex ;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    width: 60%;
+    margin: auto;
+    
+}
+
+input{
+    width: 35%;
+    height: 20px;
+}
+
+select{
+    margin:0 5% ;
+    width: 40%;
+    height: 25px;
+}
+
+input,
+label {
+    
+margin: 10px;
+}
+
+#message{
+    width: 100%;
+    height: 200px;
+}
