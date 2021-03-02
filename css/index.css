@@ -1,1 +1,57 @@
 /* MAIN PAGE */
+
+/* SECTION 1 : COMPARATEUR*/
+
+#section1 {
+    height: 82vh;
+    padding: 30px 5%;
+    background-color: #6633ff;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#comparateur {
+    width: 70%;
+    height: 530px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+#img {
+    width: 25%;
+    height: 530px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+#bons-plans {
+    width: 460px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #fff;
+}
+
+#bons-plans input {
+    width: 50%;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+#bons-plans button {
+    width: 50%;
+}
+
+#bons-plans button span {
+    color: red;
+}
+
+/* SECTION 2 : */
+
