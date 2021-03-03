@@ -135,6 +135,7 @@
 
     #end {
         align-items: center;
+        margin-left: 0;
     }
 
     #bottom {
@@ -148,5 +149,12 @@
         grid-template-rows: repeat(12, 1fr);
         text-align: center;
         height: 420px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    #left {
+        width: 100%;
     }
 }
