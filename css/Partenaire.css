@@ -3,7 +3,6 @@ body{
 }
 
 #p1 {
-    margin-top: 100px;
     color: #1DB02E;
     font-size:45px;
 }
@@ -34,17 +33,21 @@ h1{
 }
 
 .img{
-    
+
     width: 150px;
     height: 150px;
     background-color:beige;
-    margin: auto;
     border-radius: 15px;
+    justify-self: flex-end;
 }
 
 .part{
     width: 25%;
-     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px ;
 }
 
 .btn_part{
@@ -56,18 +59,40 @@ h1{
     padding: 5px;
 }
 
+.btn_envoyer{
+    font-size: 30px;
+    color: white;
+    background-color:#6633ff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 300px;
+}
+
 h3{
     color:#6633ff;
+    height: 50px;
+    
 }
 
 .part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 30%;
+    margin-top:50px ;
      
 }
 
-#shema-implémentation{
-    margin: auto;
-    background-color: aquamarine;
-    width: 70%;
-    height: 500px;
+.txt_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4{
+    height: 3rem;
+   
 }

@@ -1,0 +1,156 @@
+#shema-implémentation{
+    position: relative;
+    margin: auto;
+    width: 345px;
+    height: 400px;
+    
+    
+
+}
+
+.cercle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1DB02E;
+    width: 90Px;
+    height: 90px;
+    border-radius: 50%;
+    margin:auto;
+    
+}
+.n{
+    color: #6633ff;
+    font-size: 50px;
+}
+
+.cercle4 {
+    right: 0; top: 0;
+}
+
+.cercle3 {
+    left: 0; top: 20%;
+}
+
+.cercle2 {
+    right: 0; top: 60%;
+}
+
+.cercle1 {
+    left: 0; bottom: 0;
+}
+
+#text_shema{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#ligne {
+    position: relative;
+    width: 170px;
+    height: 20px;
+    background-color: #6633ff;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+#ligne:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 175px;
+    width: 175px;
+    margin-left: -48%;
+    border-radius: 50%;
+    background: #6633ff;
+}
+
+#ligne:after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 135px;
+    width: 160px;
+    margin-left: -60px;
+    background: white;
+    margin-top: 20px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#ligne2{
+    position: relative;
+    width: 160px;
+    height: 20px;
+    background-color: #6633ff;
+    margin-top: 135px;
+    margin-left: 90px;
+}
+
+#ligne2:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 175px;
+    width: 175px;
+    margin-left: 68px;
+    border-radius: 50%;
+    background: #6633ff;
+}
+
+#ligne2:after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 135px;
+    width: 160px;
+    margin-left: 60px;
+    background: white;
+    margin-top: 20px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#ligne3{
+    
+    width: 160px;
+    height: 20px;
+    background-color: #6633ff;
+    margin-top: 135px;
+    margin-left: 89px;
+}
+
+.left {
+    color:  #6633ff;
+    position: absolute;
+    bottom: 40px; left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 335px;
+}
+
+.right {
+    color:  #6633ff;
+    position: absolute;
+    top: 50px; right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 335px;
+}
+
+.gras{
+}
+
+#float {
+    font-weight: 300;
+}

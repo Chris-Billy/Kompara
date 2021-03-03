@@ -1,9 +1,10 @@
 #form_contact{
     display:flex ;
     flex-wrap: wrap;
-    background-color: aquamarine;
-    width: 60%;
+    justify-content: center;
+    width: 80%;
     margin: auto;
+
     
 }
 
@@ -13,18 +14,37 @@ input{
 }
 
 select{
-    margin:0 5% ;
-    width: 40%;
+    margin:10px 10px ;
+    width: 91%;
     height: 25px;
 }
 
 input,
 label {
-    
-margin: 10px;
+    width: 90%;
+    margin: 10px;
+    text-align: left;
 }
 
 #message{
     width: 100%;
     height: 200px;
+}
+
+.name {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#msg{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+label{
+    
+   height: 2rem;
 }

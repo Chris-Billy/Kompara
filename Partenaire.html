@@ -5,23 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Partenaire.css">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/formulaire_contact.css">
+    <link rel="stylesheet" href="./css/shema.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
     <title>Partenaire</title>
 </head>
 
 <body>
     <header>
-        <img id="logo" src="./images/Logo couleurs_sans fond.png" alt="Logo Kompara">
+        <a href=""><img id="logo" src="./images/Logo couleurs_sans fond.png" alt="Logo Kompara"></a>
         <nav>
-            <ul>
-                <li>Comparer</li>
-                <li>Convertir des devises</li>
-                <li>Nos conseils</li>
-                <li>Partenaires</li>
+            <ul id="menu">
+                <li><a href="#">Comparer</a></li>
+                <li><a href="#">Convertir des devises</a></li>
+                <li><a href="#">Nos conseils</a></li>
+                <li><a href="#">Partenaires</a></li>
+                <li><a id="search" href=""><i class="fas fa-search"></i></a></li>
+                <li id="lang" class="pointer"><img class="img-lang" src="./images/fr.png" alt=""> FR <i
+                        class="fas fa-sort-down"></i>
+                    <ul class="sous-menu">
+                        <li>
+                            <div class="disabled"></div><a href="#"><img class="img-lang" src="./images/en.png" alt="">
+                                EN </a>
+                        </li>
+                        <li><a href="#"><img class="img-lang" src="./images/fr.png" alt=""> FR </a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-        <button type="button">Connexion</button>
+        <button class="pointer button1" type="button">Connexion</button>
     </header>
 
     <p id="p1"><strong>Besoin de vous développer ?
@@ -35,6 +49,7 @@
 
         <div class="part">
             <h3>Partenaire Finance/Banque</h3>
+            
             <div class="img"></div>
             <h4>Du business sans effort</h4>
             <p>Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum,
@@ -71,7 +86,7 @@
     </div>
 
     <br>
-    <a href="#form_contact"><button class="btn_part">Je deviens partenaire</button></a>
+    <a href="#form_contact"><button class="btn_part pointer">Je deviens partenaire</button></a>
     <br>
 
     <h1>Pourquoi choisir Kompara ?</h1>
@@ -124,46 +139,156 @@
     <h1>Contactez-nous</h1>
     <br>
     <div id="form_contact">
+
+        <div class="name">
+            <label for="select1">Votre secteur d’activité</label>
+            <select id=select1>
+                <option value="">--Please choose an option--</option>
+            </select>
+        </div>
+
+        <div class="name">
+            <label for="select2">Pays dans le(s)quel(s) est(sont) basé(s) votre entreprise</label>
+            <select id="select2">
+                <option value="">--Please choose an option--</option>
+            </select>
+        </div>
+
+
+        <div class="name">
+            <label for="prenom">Prénom*</label>
+            <input id="prenom" type="text">
+        </div>
+        <div class="name">
+            <label for="nom">Nom*</label>
+            <input id="nom" type="text">
+        </div>
+
+        <div class="name">
+            <label for="couriel">Couriel*</label>
+            <input id="couriel" type="text">
+        </div>
+
+        <div class="name">
+            <label for="tel">Téléphone</label>
+            <input id="tel" type="text">
+        </div>
+
+        <div class="name">
+            <label for="entreprise">Entreprise</label>
+            <input id="entreprise" type="text">
+        </div>
+
+        <div class="name">
+            <label for="fonction">Fonction</label>
+            <input id="fonction" type="text">
+        </div>
+
+        <div id="msg">
+            <label for="message">Message</label>
+            <input id="message" type="text">
+        </div>
+
         
-        <select>
-            <option value="">--Please choose an option--</option>
-        </select>
-        <select>
-            <option value="">--Please choose an option--</option>
-        </select>
+        <button class="btn_envoyer pointer">Envoyer</button>
 
-        <label for="prenom">Prénom*</label>
-        <input id="prenom"type="text" >
-
-        <label for="nom">Nom*</label>
-        <input id="nom"type="text">
-
-        <label for="couriel">Couriel*</label>
-        <input id="couriel"type="text">
-
-        <label for="tel">Téléphone</label>
-        <input id="tel"type="text">
-
-        <label for="entreprise">Entreprise</label>
-        <input id="entreprise"type="text">
-        
-        <label for="fonction">Fonction</label>
-        <input id="fonction"type="text">
-        
-        <label for="message">Message</label>
-        <input id="message"type="text">
     </div>
 
     <h1>Une implémentation rapide et gratuite</h1>
 
     <p id="p3">Nous vous intégrons dans notre solution sans aucun impact sur vos systèmes existants.</p>
 
-    <div id="shema-implémentation">
+    <div id= text_shema>
 
-    </div>
-    <br>
+        <div class="left">
+            <p id="float"> <strong class="gras">Main dans la main</strong><br>
+                Nous travaillerons ensemble sur l'UX/UIde la solution pour vous mettre en avant</p>
+            <p id="float"> <strong class="gras">Main dans la main</strong><br>
+                Nous travaillerons ensemble sur l'UX/UIde la solution pour vous mettre en avant</p>
+        </div>
+
+        <div id="shema-implémentation">
+
+            <div id="ligne"></div>
+            <div class="cercle cercle4">
+                <p class="n">4</p>
+            </div>
+            
+            <div class="cercle cercle3">
+                <p class="n">3</p>
+            </div>
+
+            <div id=ligne2></div>
+
+            <div class="cercle cercle2">
+                <p class="n">2</p>
+            </div>
+            <div class="cercle cercle1">
+                <p class="n">1</p>
+            </div>
+
+            <div id=ligne3></div>
     
-    <a href="#form_contact"><button class="btn_part">Devenir partenaire</button></a>
+        </div>
+
+        <div class="right">
+            <p id="float"> <strong class="gras">Main dans la main</strong><br>
+                Nous travaillerons ensemble sur l'UX/UIde la solution pour vous mettre en avant</p>
+            <p id="float"> <strong class="gras">Main dans la main</strong><br>
+                Nous travaillerons ensemble sur l'UX/UIde la solution pour vous mettre en avant</p>
+        </div>
+    </div>
+    
+
+    
+    <br>
+
+
+
+    <a href="#form_contact"><button class="btn_part pointer">Devenir partenaire</button></a>
+
+    <br><br><br><br>
+
+
+<footer>
+    <div id="top">
+        <div id="left">
+            <h5>Reçois nos dernières offres</h5>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Entrez votre E-mail">
+                <button class="pointer" type="submit">Je m'inscris</button>
+            </form>
+            <div id="social-networks">
+                <a class="network circle" href="https://www.facebook.com/komparatransfers/"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="network circle" href="https://www.instagram.com/kompara_transfers/"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="network circle" href="https://www.linkedin.com/company/komparamoneytransfert/"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div id="right">
+            <a href="#">À propos</a>
+            <a href="#">Histoire et équipe</a>
+            <a href="#">Nos super-héros</a>
+            <a href="#">Verbatims</a>
+            <a href="#">Comment ça marche</a>
+            <a href="#">Devenir partenaire</a>
+            <a href="#">Nous rejoindre</a>
+            <a href="#">Nous contacter</a>
+            <a href="#">FAQ</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">CGU | CGV</a>
+        </div>
+    </div>
+    <div id="bottom">
+        <a href=""><img id="logo" src="./images/Logo couleurs_sans fond.png" alt="Logo Kompara"></a>
+        <p id="contact">00 337 67 94 74 46 | hello@kompara.cash</p>
+        <p>&copy;2021 Kompara Solutions All right reserved</p>
+    </div>
+</footer>
 
 </body>
 
