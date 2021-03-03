@@ -1,11 +1,9 @@
 @media (max-width: 680px){
     #p1 {
-        color: #1DB02E;
         font-size:23px;
     }
 
     #p2 {
-        color: #6633ff;
         font-size: 12px ; 
     }
     #p3{
@@ -15,11 +13,7 @@
 
     h1{
         font-size: 23px;
-        color:white ; 
-        background-color:#1DB02E;
-        display: inline-block;
         padding: 1px 5px;
-        border-radius: 5px;
         margin-top: 20px;
     }
 
