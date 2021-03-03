@@ -42,7 +42,7 @@ h1{
 }
 
 .part{
-    width: 25%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -80,7 +80,7 @@ h3{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 400px;
     margin-top:50px ;
      
 }

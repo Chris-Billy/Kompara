@@ -5,10 +5,9 @@
     width: 80%;
     margin: auto;
 
-    
 }
 
-input{
+.inputF{
     width: 35%;
     height: 20px;
 }
@@ -19,7 +18,7 @@ select{
     height: 25px;
 }
 
-input,
+.inputF,
 label {
     width: 90%;
     margin: 10px;
