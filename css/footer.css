@@ -27,6 +27,7 @@
 }
 
 #left form input::placeholder {
+    font-family: 'Spartan', sans-serif;
     color: #fff;
 }
 

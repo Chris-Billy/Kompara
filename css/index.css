@@ -114,14 +114,15 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 15px;
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
 
 .item1 {
-    background-image: url("./../images/avis1.jpg");
+    background-image: url("./../images/avis1.png");
 }
 
 .item2 {
-    background-image: url("./../images/avis2.jpg");
+    background-image: url("./../images/avis2.png");
 }
 
 .item3 {
