@@ -23,6 +23,7 @@ label {
     width: 90%;
     margin: 10px;
     text-align: left;
+    margin-block-start: 0;
 }
 
 #message{
@@ -46,4 +47,5 @@ label {
 label{
     
    height: 2rem;
+   margin-block-end: 0;
 }

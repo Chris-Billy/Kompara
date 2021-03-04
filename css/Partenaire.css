@@ -2,21 +2,45 @@
     text-align: center;
 }
 
-#imgFond{
-    background-image: url("./../images/teste.png");
-    background-repeat:no-repeat ;
-    background-position: center;
-
+#imgFond{ 
+    background-image: linear-gradient( 
+180deg
+ , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(../../Kompara/images/img_partenaire/Image_Partenaires\ 1.png);
+    background-size: auto ,cover;
+    background-position: 0px 0px, 50% 50%;
+    background-attachment: scroll, fixed;
+    height: 200px;
+    margin-top: -90px;
+    padding: 60px 0;
 }
 
-#p1 {
-    color: #1DB02E;
-    font-size:45px;
+#p1 {background-image: url(../../Kompara/images/img_partenaire/Image_Partenaires\ 1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    font-size: 4vw;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 100px;
+}
+
+
+#pFond{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #p2 {
-    color: #6633ff;
-    font-size: 20px ; 
+    color: #1DB02E;
+    font-size: 22px;
+    background-color: white;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    margin-top: -45px;
+    border-radius: 10px;
+    box-shadow: 3px 1px 4px black;
 }
 
 #p3{
@@ -29,13 +53,13 @@ h3{
     display: inline-block;
     padding:7px 15px;
     border-radius: 5px;
-    margin-top: 100px;
 }
 
 #devenir_part{
     display:flex ;
     justify-content:space-around; 
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .img{
@@ -57,10 +81,11 @@ h3{
 .btn_part{
     font-size: 25px;
     color: white;
-    background-color:#6633ff;
+    background-color:#1DB02E;
     border-radius: 10px;
-    border: solid 2px black;
+    border: none;
     padding: 5px;
+    margin-bottom: 50px;
 }
 .btn_part:hover , .btn_envoyer:hover{
     transform: scale(1.05);
@@ -69,22 +94,23 @@ h3{
 .btn_envoyer{
     font-size: 30px;
     color: white;
-    background-color:#6633ff;
+    background-color:#1DB02E;
     border-radius: 10px;
-    border: solid 2px black;
+    border: none;
     padding: 5px;
     width: 300px;
+    margin-bottom: 50px;
 }
 
 
 h4 {
-    color: white;
+    color: #1DB02E;
     font-size: 18px;
-    background-color: #1DB02E;
     height: 20px;
     display: inline-block;
     padding: 7px 10px;
     border-radius: 5px;
+    margin-block-end: 0;
 }
 
 .part1{
