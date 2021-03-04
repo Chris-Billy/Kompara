@@ -203,12 +203,20 @@ ul {
     }
 
     nav {
+        position: absolute;
         width: 100%;
         text-align: center;
+        top: -315px;
+        transition: top 0.7s;
+    }
+
+    #nav.active {
+        position: relative;
+        top: 0;
     }
 
     #menu {
-        display: none;
+        /* display: none; */
         flex-direction: column;
         justify-content: space-evenly;
         width: 100%;
