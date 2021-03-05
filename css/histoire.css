@@ -1,3 +1,5 @@
+/* SECTION 1 : FONDATEURS */
+
 #section1 {
     width: 550px;
     margin: auto;
@@ -20,6 +22,7 @@
 
 #fondateurs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     color: #6633ff;
     text-align: center;
@@ -37,12 +40,49 @@
 .photo {
     width: 200px;
     height: 200px;
+    margin: 15px;
     border-radius: 50%;
     background-size: cover;
     box-shadow: 0px 7px 7px rgb(82, 82, 82);
     border: 1px solid rgba(82, 82, 82, 0.5);
     background-color: #fff;
 }
+
+/* SECTION 2 : CO-DEVELOPPEUR */
+
+#section2 {
+    width: 550px;
+    margin: auto;
+    padding: 0 5% 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-section2 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.items-section2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 175px;
+    color: white;
+    background-color: #1DB02E;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 15px;
+}
+
+/* SECTION 3 : ACTEURS */
+
 #logo-part{
     width: 750px;
     display: flex;
@@ -62,8 +102,14 @@
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 650px){
-    #logo-part{
-        width: 500px;
+
+@media screen and (max-width: 650px) {
+
+    #section1, #section2, #logo-part {
+        width: auto;
+    }
+
+    .logo-hist img {
+        margin: 15px;
     }
 }
