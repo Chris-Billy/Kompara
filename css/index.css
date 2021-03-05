@@ -1,10 +1,6 @@
 /* MAIN PAGE */
 
-.uper {
-    text-transform: uppercase;
-}
-
-/* SECTION 1 : COMPARATEUR*/
+/* SECTION 1 : COMPARATEUR */
 
 #section1 {
     display: flex;
@@ -59,7 +55,7 @@
     color: red;
 }
 
-/* SECTION 2 : */
+/* SECTION 2 : VERBATIMS */
 
 #section2 {
     padding: 30px 5%;
@@ -71,15 +67,6 @@
     align-items: center;
     width: 550px;
     margin: auto;
-}
-
-.title {
-    padding: 7px 15px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #6633ff;
-    margin-bottom: 35px;
-    text-align: center;
 }
 
 #verbatims {
@@ -137,7 +124,7 @@
     z-index: -1000;
 }
 
-/* SECTION 3 */
+/* SECTION 3 : COMMENT CA MARCHE */
 
 #section3 {
     padding: 0 5% 30px;
@@ -224,7 +211,7 @@
     margin-top: 35px;
 }
 
-/* SECTION 4 */
+/* SECTION 4 : TES GAINS */
 
 #section4 {
     padding: 0 5% 30px;

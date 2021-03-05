@@ -10,12 +10,25 @@ html, body {
     font-family: 'Spartan', sans-serif;
 }
 
+.uper {
+    text-transform: uppercase;
+}
+
 .pointer {
     cursor: pointer;
 }
 
 .circle {
     border-radius: 50%;
+}
+
+.title {
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6633ff;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 /* HEADER */
