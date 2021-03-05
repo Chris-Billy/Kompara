@@ -1,3 +1,4 @@
+/* Formulaire*/
 #form_contact{
     display:flex ;
     flex-wrap: wrap;
@@ -7,6 +8,7 @@
 
 }
 
+/* menu déroulant et entrer de données*/
 .inputF{
     width: 35%;
     height: 20px;

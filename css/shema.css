@@ -1,3 +1,8 @@
+#p3{
+    color: #7F7F7F;
+}
+
+/*Shéma "serpent"*/
 #shema-implémentation{
     position: relative;
     margin: auto;
@@ -7,6 +12,7 @@
     
 }
 
+/*Forme dans le shéma*/
 .cercle{
     position: absolute;
     display: flex;
@@ -23,7 +29,7 @@
     color: #6633ff;
     font-size: 50px;
 }
-
+/*Positionnement des formes*/
 .cercle4 {
     right: 0; top: 0;
 }
@@ -40,16 +46,7 @@
     left: 0; bottom: 0;
 }
 
-#text_shema{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    
-    
-}
-
+/*Position du serpent et dimenssion*/
 #ligne {
     position: relative;
     width: 170px;
@@ -125,6 +122,18 @@
     margin-left: 89px;
 }
 
+/*Texte autour du shéma*/
+#text_shema{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+
+/*Texte a gauche*/
 .left {
     color:  #6633ff;
     display: flex;
@@ -135,6 +144,7 @@
     margin-top: 60px;
 }
 
+/*Texte a droite*/
 .right {
     color:  #6633ff;
     display: flex;
@@ -146,9 +156,7 @@
     
 }
 
-.gras{
-}
-
+/*Largeur du bloc du texte*/
 #float {
     font-weight: 300;
 }
