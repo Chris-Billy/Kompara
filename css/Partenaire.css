@@ -5,7 +5,7 @@
 #imgFond{ 
     background-image: linear-gradient( 
 180deg
- , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(../../Kompara/images/img_partenaire/Image_Partenaires\ 1.png);
+ , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(../images/img_partenaire/Image_Partenaires1.png);
     background-size: auto ,cover;
     background-position: 0px 0px, 50% 50%;
     background-attachment: scroll, fixed;
@@ -14,7 +14,7 @@
     padding: 60px 0;
 }
 
-#p1 {background-image: url(../../Kompara/images/img_partenaire/Image_Partenaires\ 1.png);
+#p1 {background-image: url(../images/img_partenaire/Image_Partenaires1.png);
     background-position: 50% 50%;
     background-size: cover;
     font-size: 4vw;
@@ -22,6 +22,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 100px;
+    background-attachment: fixed;
 }
 
 

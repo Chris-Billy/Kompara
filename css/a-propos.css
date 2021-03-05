@@ -1,0 +1,67 @@
+.a-propos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(102, 51, 255);
+    border-radius: 7px;
+    width: 500px;
+}
+
+.color-text{
+    color: white;
+    font-family: 'Futura';
+    font-size: 40px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.dépense{
+    color:rgb(29, 176, 46) ;
+    font-family: 'Futura';
+    font-size: 45px;
+}
+
+.img-mission{
+    height: auto;
+    width: 550px;
+}
+
+.comparateur{
+    color:rgb(102, 51, 255);
+    font-family: 'Futura';
+    font-size: 30px;
+}
+
+.image-text{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text1{
+    margin-right:100px ;
+    color:rgb(102, 51, 255);
+}
+
+.text2{
+    margin-left: 100px;
+    color:rgb(102, 51, 255);
+}
+
+.text-image{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

@@ -1,0 +1,36 @@
+@media (max-width: 570px) {
+    .img-mission{
+        width: 100%;
+    }
+    .mission{
+        width: 80%;
+    }
+    .dépense{
+        font-size: 27px;
+    }
+    .comparateur{
+        font-size:20px;
+    }
+  
+}
+@media (max-width: 1000px) {
+
+    .image-text{
+        flex-direction: column;
+    }
+
+    .text-image{
+        flex-direction: column-reverse;
+    }
+
+
+    .text1{
+        margin-right:0 ;
+    }
+    
+    .text2{
+        margin-left: 0;
+    }
+
+
+}

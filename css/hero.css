@@ -1,0 +1,72 @@
+h1{
+    font-family: 'Futura';
+    color:rgb(29, 176, 46) ;
+    text-align: center;
+}
+
+.hero{
+    font-family: 'Futura';
+    color:rgb(102, 51, 255) ;
+    text-align: start;
+}
+
+.div{
+    margin: 0cm 10%;
+}
+
+.photo-all{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 5%;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 50px 50px 0px 50px;
+    overflow: hidden;
+   
+}
+
+.hero-photo{
+    width: 150px;
+    height: 150px;
+
+}
+
+
+
+.prenom-nom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width:250px;
+    max-height:500px;
+    margin: 0px 10px 50px 0px;
+}
+
+p{
+    font-family: 'Futura';
+    color:rgb(102, 51, 255) ;
+    text-align: center;
+}
+
+.un{
+    height: 30px;
+}
+
+.nos-hero{
+    width: 100%;
+    height: 100%;
+}
